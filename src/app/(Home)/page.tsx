@@ -2,7 +2,6 @@ export const revalidate = 60; // Enable ISR: revalidate every 60 seconds
 import React from "react";
 import HeroSection from "./components/heroSection";
 import SearchBox from "./components/searchBox";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 
 // Placeholder components for new sections
